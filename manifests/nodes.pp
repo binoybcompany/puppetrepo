@@ -1,3 +1,4 @@
 node 'puppetmaster' {
-	include puppet
+  include puppet
+  include memcached
 }
